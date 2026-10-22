@@ -1,0 +1,12 @@
+.git/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+work/
+output/
+.env
+.env.*
+!.env.example

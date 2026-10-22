@@ -1,0 +1,7 @@
+# Direct Python dependencies, pinned to the validated release environment.
+# Python 3.12+; use a virtual environment. Node dependencies are separate.
+numpy==2.4.3
+Pillow==12.1.1
+scipy==1.18.1
+opencv-python-headless==4.13.0.92
+contourpy==1.4.0

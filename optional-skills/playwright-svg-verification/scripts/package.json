@@ -1,0 +1,8 @@
+{
+  "name": "raster-to-svg-playwright-verification",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "dependencies": { "playwright": "1.64.1" }
+}

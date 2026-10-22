@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raster to SVG"
+  short_description: "Create faithful vectors with smooth shading and seam checks"
+  default_prompt: "Use $raster-to-svg to convert this image to full-vector SVG, preserve its design and features, choose suitable shading, and check the rendered result for blockiness and seams."
