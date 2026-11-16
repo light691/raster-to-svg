@@ -5,6 +5,14 @@ verification companion in this repository are MIT licensed; see [LICENSE](LICENS
 Third-party software retains its upstream license. This project is independent
 of Anthropic, Google, OpenAI, Microsoft, LogoLabs and Vision Cortex.
 
+## Example artwork
+
+The comparison images in [`docs/examples/`](docs/examples/README.md) document
+raster-to-SVG reconstruction and correction work. Reference artwork, names,
+logos, and trademarks remain the property of their respective owners; inclusion
+does not imply endorsement or grant rights to that artwork under this
+repository's MIT license. See the example notes for panel labels and scope.
+
 ## Bundled Inkvec executable
 
 - Project: [LogoLabs Inkvec](https://github.com/logolabs/inkvec).

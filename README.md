@@ -15,6 +15,74 @@ access. Browser verification with **Playwright is optional**.
 > Clean logo reconstruction requires source-guided agent work and visual review.
 > Dense traces and photographic surfaces can be large and hard to edit.
 
+## Examples: before, after, and corrections
+
+Saved comparisons from development and visual review, including later v2
+reconstruction experiments. The panels identify source rasters, earlier vectors,
+and revised renders. Open any image to inspect it at full resolution.
+
+### Stretch Gillam: raster to reconstructed crest
+
+The original raster is on the left; the v2 SVG render is on the right. The
+reconstruction keeps the lettering, counters, crest layout, and basketball seams.
+
+![Stretch Gillam crest: original raster on the left and v2 SVG render on the right](docs/examples/stretch-gillam-before-after.png)
+
+<details>
+<summary>See edge corrections and 400% detail comparisons</summary>
+
+The three columns below show the original raster, the vector before edge cleanup,
+and the vector after cleanup. Near-vertical letter strokes were straightened while
+retaining their endpoints, corners, and counters. The pale basketball highlights
+were checked against the source and retained.
+
+![Stretch Gillam correction: original raster, before edge cleanup, and after edge cleanup](docs/examples/stretch-gillam-edge-corrections.png)
+
+Direct SVG crops at 400% compare letter faces and counters, basketball curves and
+seam highlights, and the arrow/trim overlap against the corresponding raster areas.
+
+![Stretch Gillam close-ups: source and SVG lettering, basketball seams, and arrow overlap at 400%](docs/examples/stretch-gillam-details.png)
+
+</details>
+
+### Gold apple emblem: contours, overlaps, and shading
+
+The source is on the left; the curved vector reconstruction is on the right.
+Source-guided review covers the leaf, thorned vine, monogram, cream trim, and
+connected gold shading.
+
+![Gold apple emblem: source raster on the left and curved vector reconstruction on the right](docs/examples/apple-before-after.png)
+
+<details>
+<summary>See monogram cleanup, bite contact, and upper-junction details</summary>
+
+This earlier cleanup sheet compares the previous and cleaned vectors. It shows
+the monogram join, the bite overlap, and the lower crossing; it documents a
+separate correction stage from the full reconstruction above.
+
+![Gold apple cleanup: previous and cleaned monogram join, bite overlap, and lower crossing](docs/examples/apple-cleanup-corrections.png)
+
+The following source/vector pairs inspect the upper vine junction and the contact
+between the gold curl and cream bite trim in the full reconstruction.
+
+![Gold apple upper junction: source raster and vector close-up](docs/examples/apple-upper-junction.png)
+
+![Gold apple bite contact: source raster and vector close-up](docs/examples/apple-bite-contact.png)
+
+</details>
+
+### Z and Camp Rock: textured vectors to clean reconstructions
+
+Both columns are vector renders: the left retains the source texture and edge
+irregularities; the right uses cleaner contours, outlined lettering, and simplified
+shading. The clean versions deliberately approximate some contour and shading
+details while removing raster texture.
+
+![Z and Camp Rock: original-style textured vectors on the left and clean reconstructions on the right](docs/examples/z-camp-rock-before-after.png)
+
+See [example notes](docs/examples/README.md) for panel labels, correction history,
+and the scope of these visual comparisons.
+
 ## What is included
 
 - Artist-quality reconstruction guidance for original lettering, smooth contours,
